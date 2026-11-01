@@ -1,0 +1,8 @@
+{
+  "name": "zcode-font-patch",
+  "version": "0.1.0",
+  "description": "ZCode 桌面版全局自定义字体(asar 补丁):apply/restore/status,聊天内由 agent 代跑,重启 ZCode 生效。",
+  "author": { "name": "yangx378" },
+  "license": "MIT",
+  "skills": "skills"
+}

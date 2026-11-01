@@ -1,0 +1,15 @@
+{
+  "name": "zcode-font",
+  "description": "ZCode 桌面版全局自定义字体工具与插件(霞鹜文楷等,asar 补丁,一次配置重启生效)。",
+  "plugins": [
+    {
+      "name": "zcode-font-patch",
+      "source": "./plugins/zcode-font-patch",
+      "version": "0.1.0",
+      "description": "给 ZCode 桌面版换全局自定义字体:聊天里说一句即可打补丁/回滚(asar 方案,重启生效,升级可重打)。",
+      "author": { "name": "yangx378" },
+      "category": "customization",
+      "keywords": ["font", "字体", "theme", "appearance", "wenkai"]
+    }
+  ]
+}
