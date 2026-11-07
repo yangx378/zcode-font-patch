@@ -103,7 +103,7 @@ function extractPatchPack() {
 function armSwap() {
   log('布防换包哨兵(等你退出 ZCode 后自动替换,30 分钟内有效)...');
   const child = spawn(process.execPath, [fileURLToPath(import.meta.url), '--swap-worker', ASAR], {
-    detached: true, stdio: 'ignore',
+    detached: true, stdio: 'ignore', windowsHide: true, // 不加会在 Windows 弹出可见控制台
   });
   child.unref();
   log('完成!现在完全退出 ZCode(含托盘图标),再正常打开即是新字体。');
